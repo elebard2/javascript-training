@@ -3,8 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Starting JS</title>
+    <script type="text/javascript">
+        alert("Hello Javascript")
+    </script>
 </head>
 <body>
+
+<script type="text/javascript" src="http://underscorejs.org/underscore.js"></script>
+
+<script type="text/javascript">
+    var array = [2, 4, 6, 10, 11, 0, -3];
+    var group = _.groupBy(array, function (num){
+        return num%23;
+    });
+    console.log(group);
+</script>
+<h1>Hello Javascript</h1>
 
 </body>
 </html>
