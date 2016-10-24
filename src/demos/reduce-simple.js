@@ -7,4 +7,4 @@ function reducer ( memo, val){
 var result = x.reduce(reducer);
 
 
-console.log('result', res);
+console.log('result', result);
